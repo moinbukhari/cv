@@ -118,6 +118,11 @@ export const RESUME_DATA = {
     "Node.js",
     "PyTorch",
     "F#",
+    "LLMs",
+    "Prompt Engineering",
+    "Teaching",
+    "Electronics",
+    "Arduino",
   ],
   projects: [
     {
