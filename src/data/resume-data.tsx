@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer with experience leading product builds as a founder",
   summary:
-    "I have take projects from idea to production and worked alongside early-stage startups. Currently, I work mostly with the T3 Stack (NextJS, Typscript, TailwindCSS, tRPC and Prisma). I also enjoy teaching what I learn and have 8+ years of experience leading classes/workshops on subjects ranging from Maths, Sciences, Electronics, Arduino and Software Engineering.",
+    "I have built projects from idea to production and worked alongside early-stage startups. Currently, I work mostly with the T3 Stack (NextJS, Typscript, TailwindCSS, tRPC and Prisma). I also enjoy teaching what I learn and have 8+ years of experience leading classes/workshops on subjects ranging from Maths, Sciences, Electronics, Arduino and Software Engineering.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56733483?v=4",
   personalWebsiteUrl: "https://moinbukhari.github.io/",
   contact: {
