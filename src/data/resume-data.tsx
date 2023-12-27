@@ -1,38 +1,21 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Moin Bukhari",
+  initials: "MB",
+  location: "London",
+  locationLink: "https://www.google.com/maps/place/London",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Full Stack Engineer with experience leading product builds as a founder",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I have take projects from idea to production and worked alongside early-stage startups. Currently, I work mostly with the T3 Stack (NextJS, Typscript, TailwindCSS, tRPC and Prisma). I also enjoy teaching what I learn and have 8+ years of experience leading classes/workshops on subjects ranging from Maths, Sciences, Electronics, Arduino and Software Engineering.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/56733483?v=4",
+  personalWebsiteUrl: "https://moinbukhari.github.io/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "moinbukhari4321@gmail.com",
+    tel: null,
     social: [
       {
         name: "GitHub",
@@ -41,238 +24,244 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/moin-bukhari/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/moinbukh",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Imperial College London",
+      degree: "Master's Degree in Computer Engineering",
+      start: "2018",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Convo",
+      link: "https://tryconvo.vercel.app",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Technical Co-Founder",
+
+      start: "Aug 2023",
+      end: "Now",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Building an AI Speech-to-Speech language tutor from scartch. Developed a cross-browser compatible feature for user audio recording. Technologies: NextJS, TypeScript, OpenAI",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Deen Developers",
+      link: "https://www.deendevelopers.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Buildathon Lead",
+
+      start: "Oct 2023",
+      end: "Now",
+      description:
+        "Organising and Executing 8-Week Buildathon Cohorts, includes in-person weekend builds, online workshops and weekly check-in sessions",
+    },
+    {
+      company: "Pivot2Tech",
+      link: "https://pivot2tech.co.uk",
+      badges: [],
+      title: "Instructor for Full Stack Development",
+
+      start: "Apr 2023",
+      end: "Now",
+      description:
+        "Teaching weekly sessions on Frontend and Backend web development. Produced weekly loom videos summarizing key topics and interactive presentations/quizzes to facilitate effective revision",
+    },
+    {
+      company: "Imperial College London",
+      link: "https://www.imperial.ac.uk/be-inspired/schools-outreach/secondary-schools/stem-programmes/the-maker-challenge/",
+      badges: [],
+      title: "Maker Challenge Leader",
+
+      start: "Apr 2022",
+      end: "Now",
+      description:
+        "Leading electronics and arduino programming sessions for Maker Challenge Cohorts. Support students through ideation, prototyping, and presentation of their projects.",
+    },
+    {
+      company: "Imperial College London",
+      link: "https://www.imperial.ac.uk/",
+      badges: [],
+      title: "Teaching Assistant for Software Engineering",
+
+      start: "Oct 2019",
+      end: "Mar 2020",
+      description:
+        "Led ARM Assembly and C++ programming exercises for undergraduate classes. Provided personalised support and supervised module exams for Computer Architecture and Software Engineering",
+    },
+    {
+      company: "Tarich Tuition Ltd",
+      link: "https://www.imperial.ac.uk/",
+      badges: [],
+      title: "GCSE Tutor -> Manager for GCSE Science",
+
+      start: "Aug 2017",
+      end: "Mar 2020",
+      description:
+        "Conducted personalized and group tutoring sessions for Maths and Sciences. Managed a team of GCSE Science Tutors and led training programs to enhance tutoring techniques",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
+    "TypeScript/JavaScript",
+    "Python",
+    "C++",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "PyTorch",
+    "F#",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Muddakir",
       techStack: [
         "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "TailwindCSS",
+        "tRPC",
+        "ClerkAuth",
+        "Prisma",
+        "PlanetScale",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
+        "A web app that helps non-Arabic speakers to understand the Quran better",
 
+      link: {
+        label: "muddakir.app",
+        href: "https://www.muddakir.app/",
+      },
+    },
+    {
+      title: "Moin's AI Portrait",
+      techStack: [
+        "Side Project",
+        "Next.js",
         "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "TailwindCSS",
+        "HuggingFace",
+        "Stable Diffusion",
+        "Google Colab",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Trained a generative image model on pictures of my face. Now you can create AI portraits of me",
+
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "portrait.up.railway.app",
+        href: "https://portrait.up.railway.app/",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Convo",
+      techStack: ["Technical Co-Founder", "TypeScript", "Next.js"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Improve your spoken fluency with Speech Focused Language learning",
+
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "tryconvo.vercel.app",
+        href: "https://tryconvo.vercel.app",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+      title: "Landing Page Template",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "TypeScript",
+        "Shadcn-ui",
+        "Geist",
+      ],
+      description: "SaaS style landing page template for NextJS users",
+
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "github.com",
+        href: "https://github.com/moinbukhari/NextJS-landing-page-template",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      title: "Find Your Fit",
+      techStack: [
+        "Side Project",
+        "JavaScript",
+        "Next.js",
+        "TailwindCSS",
+        "GPT3.5",
+      ],
+      description: "Generate personalised workout plans in seconds",
+
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "findyourfit.vercel.app",
+        href: "https://findyourfit.vercel.app/",
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Unclassified.fyi",
+      techStack: ["Freelance Project", "Next.js", "TailwindCSS", "Shadcn-ui"],
       description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+        "Find out what UK politicians are saying on issues affecting Palestine",
+
+      link: {
+        label: "unclassified.fyi",
+        href: "https://unclassified.fyi/?auth=true",
+      },
+    },
+
+    {
+      title: "MIPS CPU Simulator",
+      techStack: [
+        "Computer Architecture Project",
+        "C++",
+        "MIPS",
+        "Assembly Language",
+        "Bash",
+        "Makefile",
+      ],
+      description:
+        "Built a CPU simulator which accurately executed MIPS-1 big-endian binaries and a testbench to test the simulator",
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Mood of the Nation",
+      techStack: [
+        "IBM Group Project",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Twitter API",
+        "NodeRED",
+      ],
       description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
+        "Sentiment Analysis Tool for Tweets about IBM events across University Campuses in the UK",
     },
     {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "C to MIPS Compiler",
+      techStack: [
+        "Language Processing Project",
+        "C++",
+        "Flex",
+        "Bison",
+        "Python",
+      ],
       description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "Developed a Lexer, Parser and Code Generator. Implemented compilation for variable declaration, loops, function calling, recursion and conditionals",
+    },
+    {
+      title: "House Price Predictor",
+      techStack: [
+        "Machine Learning Project",
+        "Python",
+        "PyTorch",
+        "Neural Network",
+      ],
+      description:
+        "Developed a Multi-Layer Neural Network library from scratch. Implemented activation functions as well as functions for data preprocessing, training and evaluation",
     },
   ],
 } as const;
