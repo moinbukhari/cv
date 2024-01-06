@@ -10,16 +10,16 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer with experience leading product builds as a founder",
   summary:
-    "I have take projects from idea to production and worked alongside early-stage startups. Currently, I work mostly with the T3 Stack (NextJS, Typscript, TailwindCSS, tRPC and Prisma). I also enjoy teaching what I learn and have 8+ years of experience leading classes/workshops on subjects ranging from Maths, Sciences, Electronics, Arduino and Software Engineering.",
+    "I have built projects from idea to production and worked alongside early-stage startups. Currently, I work mostly with the T3 Stack (NextJS, Typscript, TailwindCSS, tRPC and Prisma). I also enjoy teaching what I learn and have 8+ years of experience leading classes/workshops on subjects ranging from Maths, Sciences, Electronics, Arduino and Software Engineering.",
   avatarUrl: "https://avatars.githubusercontent.com/u/56733483?v=4",
-  personalWebsiteUrl: "https://moinbukhari.github.io/",
+  personalWebsiteUrl: "https://moinbukhari.com/",
   contact: {
     email: "moinbukhari4321@gmail.com",
     tel: null,
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/moinbukhari",
         icon: GitHubIcon,
       },
       {
@@ -85,7 +85,18 @@ export const RESUME_DATA = {
       start: "Apr 2022",
       end: "Now",
       description:
-        "Leading electronics and arduino programming sessions for Maker Challenge Cohorts. Support students through ideation, prototyping, and presentation of their projects.",
+        "Leading electronics and arduino programming sessions for Maker Challenge Cohorts. Support students through ideation, prototyping, and presentation of their projects",
+    },
+    {
+      company: "Private Tutoring",
+      link: "/",
+      badges: [],
+      title: "Tutor for GCSE & A-Level",
+
+      start: "Jun 2020",
+      end: "Now",
+      description:
+        "Teaching Maths, Chemistry, Physics & Further Maths to students in 1-1 and group sessions",
     },
     {
       company: "Imperial College London",
@@ -110,6 +121,52 @@ export const RESUME_DATA = {
         "Conducted personalized and group tutoring sessions for Maths and Sciences. Managed a team of GCSE Science Tutors and led training programs to enhance tutoring techniques",
     },
   ],
+  buildingBatches: [
+    {
+      company: "Buildspace",
+      link: "https://buildspace.so/",
+      badges: [],
+      title: "Nights & Weekends S4",
+
+      start: "Aug 2023",
+      end: "Oct 2023",
+      description:
+        "Building Convo, A speech focused AI language tutor. Got invited to demo at Buildspace HQ, San Francisco where I showcased the application, incorporated user feedback, and iteratively improved the product in real-time",
+    },
+    {
+      company: "Deen Developers",
+      link: "https://www.deendevelopers.com/",
+      badges: [],
+      title: "Buildathon Batch 1",
+
+      start: "Jun 2023",
+      end: "Oct 2023",
+      description:
+        "Continued building Muddakir, graduated from Batch 1 and got offered to join the team as Buildathon Lead",
+    },
+    {
+      company: "Buildspace",
+      link: "https://buildspace.so/",
+      badges: [],
+      title: "Nights & Weekends S3",
+
+      start: "Apr 2023",
+      end: "Jun 2023",
+      description:
+        "Building Muddakir, a web app that is helping non-Arabic speakers understand The Quran better. Got invited to a three-day event at Buildspace HQ, San Francisco where I worked alongside other founders to improve the product and demoed to investors",
+    },
+    {
+      company: "Buildspace",
+      link: "https://buildspace.so/",
+      badges: [],
+      title: "Nights & Weekends S2",
+
+      start: "Dec 2022",
+      end: "Feb 2023",
+      description:
+        "Built Find Your Fit, a GPT-3 powered web app that generates personalised workout plans in seconds. Got invited to Founders inc, San Francisco where I progressed to the final round of pitches.",
+    },
+  ],
   skills: [
     "React/Next.js",
     "TypeScript/JavaScript",
@@ -126,23 +183,30 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Muddakir",
+      title: "Find Your Fit",
       techStack: [
         "Side Project",
-        "TypeScript",
+        "JavaScript",
         "Next.js",
         "TailwindCSS",
-        "tRPC",
-        "ClerkAuth",
-        "Prisma",
-        "PlanetScale",
+        "GPT3.5",
       ],
-      description:
-        "A web app that helps non-Arabic speakers to understand the Quran better",
+      description: "Generate personalised workout plans in seconds",
 
       link: {
-        label: "muddakir.app",
-        href: "https://www.muddakir.app/",
+        label: "findyourfit.vercel.app",
+        href: "https://findyourfit.vercel.app/",
+      },
+    },
+    {
+      title: "Convo",
+      techStack: ["Technical Co-Founder", "TypeScript", "Next.js"],
+      description:
+        "Improve your spoken fluency with Speech Focused Language learning",
+
+      link: {
+        label: "tryconvo.vercel.app",
+        href: "https://tryconvo.vercel.app",
       },
     },
     {
@@ -164,15 +228,25 @@ export const RESUME_DATA = {
         href: "https://portrait.up.railway.app/",
       },
     },
+
     {
-      title: "Convo",
-      techStack: ["Technical Co-Founder", "TypeScript", "Next.js"],
+      title: "Muddakir",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "tRPC",
+        "ClerkAuth",
+        "Prisma",
+        "PlanetScale",
+      ],
       description:
-        "Improve your spoken fluency with Speech Focused Language learning",
+        "A web app that helps non-Arabic speakers to understand the Quran better",
 
       link: {
-        label: "tryconvo.vercel.app",
-        href: "https://tryconvo.vercel.app",
+        label: "muddakir.app",
+        href: "https://www.muddakir.app/",
       },
     },
     {
@@ -191,22 +265,7 @@ export const RESUME_DATA = {
         href: "https://github.com/moinbukhari/NextJS-landing-page-template",
       },
     },
-    {
-      title: "Find Your Fit",
-      techStack: [
-        "Side Project",
-        "JavaScript",
-        "Next.js",
-        "TailwindCSS",
-        "GPT3.5",
-      ],
-      description: "Generate personalised workout plans in seconds",
 
-      link: {
-        label: "findyourfit.vercel.app",
-        href: "https://findyourfit.vercel.app/",
-      },
-    },
     {
       title: "Unclassified.fyi",
       techStack: ["Freelance Project", "Next.js", "TailwindCSS", "Shadcn-ui"],
