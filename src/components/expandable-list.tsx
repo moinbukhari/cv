@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-// import { cn } from "@/lib/utils";
 
 interface Props {
   children: any;
@@ -10,6 +9,7 @@ interface Props {
 
 export function ExpandableList({ children, MAX_ITEMS = 4 }: Props) {
   const [showAllitems, setShowAllitems] = React.useState(false);
+  const buttonRef = React.useRef<HTMLButtonElement | null>(null);
 
   if (children.length <= MAX_ITEMS) {
     return <>{children}</>;
@@ -22,6 +22,7 @@ export function ExpandableList({ children, MAX_ITEMS = 4 }: Props) {
       {showAllitems && children}
 
       <button
+        ref={buttonRef}
         onClick={() => setShowAllitems(!showAllitems)}
         className="cursor-pointer text-start text-gray-500 underline"
       >
