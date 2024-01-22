@@ -111,7 +111,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Tarich Tuition Ltd",
-      link: "https://www.imperial.ac.uk/",
+      link: "https://www.tarichtuition.com/",
       badges: [],
       title: "GCSE Tutor -> Manager for GCSE Science",
 
@@ -205,8 +205,8 @@ export const RESUME_DATA = {
         "Improve your spoken fluency with Speech Focused Language learning",
 
       link: {
-        label: "tryconvo.vercel.app",
-        href: "https://tryconvo.vercel.app",
+        label: "convo.ing",
+        href: "https://convo.ing",
       },
     },
     {
