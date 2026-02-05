@@ -9,6 +9,7 @@ import { Button } from "../components/ui/button";
 import { RESUME_DATA } from "../data/resume-data";
 import { ProjectCard } from "../components/project-card";
 import { ExpandableList } from "../components/expandable-list";
+import { ThemeToggle } from "../components/theme-toggle";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -18,8 +19,11 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className=" container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
+      <div className="fixed right-4 top-4 z-50 md:right-8 md:top-8 print:hidden">
+        <ThemeToggle />
+      </div>
       <section className="mx-auto w-full max-w-3xl space-y-8  print:space-y-6">
-        <div className="flex items-center justify-between">
+        <div className="flex animate-fade-in-up items-center justify-between opacity-0">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
@@ -27,7 +31,7 @@ export default function Page() {
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                className="inline-flex gap-x-1.5 align-baseline leading-none transition-colors hover:text-foreground hover:underline"
                 href={RESUME_DATA.locationLink}
                 target="_blank"
               >
@@ -93,13 +97,13 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-        <Section>
+        <Section className="animate-fade-in-up opacity-0 animate-delay-1">
           <h2 className="text-xl font-bold">About</h2>
           <p className="whitespace-pre-line text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
-        <Section>
+        <Section className="animate-fade-in-up opacity-0 animate-delay-2">
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
@@ -119,7 +123,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+        <Section className="animate-fade-in-up opacity-0 animate-delay-3">
           <h2 className="text-xl font-bold">Work Experience</h2>
           <ExpandableList MAX_ITEMS={4}>
             {RESUME_DATA.work.map((work) => {
@@ -128,7 +132,7 @@ export default function Page() {
                   <CardHeader>
                     <div className="flex items-center justify-between gap-x-2 text-base">
                       <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                        <a className="hover:underline" href={work.link}>
+                        <a className="transition-colors hover:text-primary hover:underline" href={work.link}>
                           {work.company}
                         </a>
 
@@ -162,7 +166,7 @@ export default function Page() {
           </ExpandableList>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="animate-fade-in-up opacity-0 animate-delay-4 print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className=" grid grid-cols-1 gap-3 md:grid-cols-2 print:grid-cols-3 print:gap-2">
             <ExpandableList MAX_ITEMS={4}>
@@ -183,7 +187,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section>
+        <Section className="animate-fade-in-up opacity-0 animate-delay-5">
           <h2 className="text-xl font-bold">Startup Incubators</h2>
           <ExpandableList MAX_ITEMS={4}>
             {RESUME_DATA.buildingBatches.map((work) => {
@@ -192,7 +196,7 @@ export default function Page() {
                   <CardHeader>
                     <div className="flex items-center justify-between gap-x-2 text-base">
                       <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                        <a className="hover:underline" href={work.link}>
+                        <a className="transition-colors hover:text-primary hover:underline" href={work.link}>
                           {work.company}
                         </a>
 
@@ -226,7 +230,7 @@ export default function Page() {
           </ExpandableList>
         </Section>
 
-        <Section>
+        <Section className="animate-fade-in-up opacity-0 animate-delay-6">
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="mb-10 flex flex-wrap gap-1 sm:mb-2">
             {RESUME_DATA.skills.map((skill) => {

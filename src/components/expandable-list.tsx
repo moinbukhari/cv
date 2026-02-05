@@ -24,7 +24,7 @@ export function ExpandableList({ children, MAX_ITEMS = 4 }: Props) {
       <button
         ref={buttonRef}
         onClick={() => setShowAllitems(!showAllitems)}
-        className="cursor-pointer text-start text-gray-500 underline"
+        className="col-span-full cursor-pointer text-start text-gray-500 underline"
       >
         {showAllitems ? "see less" : "see more"}
       </button>
