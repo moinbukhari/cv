@@ -8,9 +8,7 @@ export const RESUME_DATA = {
   location: "London",
   locationLink: "https://www.google.com/maps/place/London",
   about: "AI Engineer @ Starlight",
-  summary: `My experience is in building products from idea to production. Currently, I work mostly with the T3 Stack (NextJS, TypeScript, Tailwind CSS, tRPC and Prisma).
-
-  AI engineer focused on building AI products end-to-end: orchestration, product engineering, and forward deployment. Currently building AI systems for the public sector at Starlight. Previously built and shipped multiple AI apps, led workshops, and taught software engineering.`,
+  summary: `Product engineer with a focus on AI. Currently at Starlight, working on systems for the public sector. Previously helped startups bring automation to their products, shipped my own apps, and taught software engineering.`,
   avatarUrl:
     "https://pbs.twimg.com/profile_images/1865217848852848640/MxoyckP9_400x400.jpg",
   personalWebsiteUrl: "https://moinbukhari.com/",
@@ -56,13 +54,24 @@ export const RESUME_DATA = {
         "Building AI applications and orchestration systems for public-sector use cases, including forward deployment. Focused on product engineering, rapid prototyping, and delivery.",
     },
     {
+      company: "Dolphin Studios",
+      link: "https://home.dolphinstudios.co/",
+      badges: [],
+      title: "AI Engineer (Contract)",
+
+      start: "Feb 2024",
+      end: "Jul 2024",
+      description:
+        "Contracted with multiple clients to build AI-powered automation and custom LLM solutions. Worked on data integration, NLP systems, and machine learning implementations for startups and enterprises.",
+    },
+    {
       company: "Convo",
       link: "https://tryconvo.vercel.app",
       badges: [],
       title: "Technical Co-Founder",
 
       start: "Aug 2023",
-      end: "Now",
+      end: "Jul 2024",
       description:
         "Building an AI Speech-to-Speech language tutor from scratch. Developed a cross-browser compatible feature for user audio recording. Technologies: NextJS, TypeScript, OpenAI",
     },
@@ -84,7 +93,7 @@ export const RESUME_DATA = {
       title: "Instructor for Full Stack Development",
 
       start: "Apr 2023",
-      end: "Now",
+      end: "Mar 2024",
       description:
         "Teaching weekly sessions on Frontend and Backend web development. Produced weekly loom videos summarizing key topics and interactive presentations/quizzes to facilitate effective revision",
     },
