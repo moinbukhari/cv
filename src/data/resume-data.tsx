@@ -7,11 +7,12 @@ export const RESUME_DATA = {
   initials: "MB",
   location: "London",
   locationLink: "https://www.google.com/maps/place/London",
-  about:
-    "Full Stack Engineer with experience leading product builds as a founder",
-  summary:
-    "I build projects from idea to production and like working alongside early-stage startups. Currently, I work mostly with the T3 Stack (NextJS, Typscript, TailwindCSS, tRPC and Prisma). I also enjoy teaching what I learn and have 8+ years of experience leading classes/workshops on subjects ranging from Maths, Sciences, Electronics, Arduino and Software Engineering.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/56733483?v=4",
+  about: "AI Engineer @ Starlight",
+  summary: `My experience is in building products from idea to production. Currently, I work mostly with the T3 Stack (NextJS, TypeScript, Tailwind CSS, tRPC and Prisma).
+
+  AI engineer focused on building AI products end-to-end: orchestration, product engineering, and forward deployment. Currently building AI systems for the public sector at Starlight. Previously built and shipped multiple AI apps, led workshops, and taught software engineering.`,
+  avatarUrl:
+    "https://pbs.twimg.com/profile_images/1865217848852848640/MxoyckP9_400x400.jpg",
   personalWebsiteUrl: "https://moinbukhari.com/",
   contact: {
     email: "moinbukhari4321@gmail.com",
@@ -44,6 +45,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Starlight",
+      link: "https://starlight.inc/",
+      badges: [],
+      title: "AI Engineer",
+
+      start: "Jul 2024",
+      end: "Now",
+      description:
+        "Building AI applications and orchestration systems for public-sector use cases, including forward deployment. Focused on product engineering, rapid prototyping, and delivery.",
+    },
+    {
       company: "Convo",
       link: "https://tryconvo.vercel.app",
       badges: [],
@@ -52,7 +64,7 @@ export const RESUME_DATA = {
       start: "Aug 2023",
       end: "Now",
       description:
-        "Building an AI Speech-to-Speech language tutor from scartch. Developed a cross-browser compatible feature for user audio recording. Technologies: NextJS, TypeScript, OpenAI",
+        "Building an AI Speech-to-Speech language tutor from scratch. Developed a cross-browser compatible feature for user audio recording. Technologies: NextJS, TypeScript, OpenAI",
     },
     {
       company: "Deen Developers",
@@ -188,7 +200,7 @@ export const RESUME_DATA = {
         "Side Project",
         "JavaScript",
         "Next.js",
-        "TailwindCSS",
+        "Tailwind CSS",
         "GPT3.5",
       ],
       description: "Generate personalised workout plans in seconds",
@@ -215,7 +227,7 @@ export const RESUME_DATA = {
         "Side Project",
         "Next.js",
         "TypeScript",
-        "TailwindCSS",
+        "Tailwind CSS",
         "HuggingFace",
         "Stable Diffusion",
         "Google Colab",
@@ -235,7 +247,7 @@ export const RESUME_DATA = {
         "Side Project",
         "TypeScript",
         "Next.js",
-        "TailwindCSS",
+        "Tailwind CSS",
         "tRPC",
         "ClerkAuth",
         "Prisma",
@@ -255,7 +267,7 @@ export const RESUME_DATA = {
         "Side Project",
         "Next.js",
         "TypeScript",
-        "Shadcn-ui",
+        "shadcn/ui",
         "Geist",
       ],
       description: "SaaS style landing page template for NextJS users",
@@ -268,7 +280,7 @@ export const RESUME_DATA = {
 
     {
       title: "Unclassified.fyi",
-      techStack: ["Freelance Project", "Next.js", "TailwindCSS", "Shadcn-ui"],
+      techStack: ["Freelance Project", "Next.js", "Tailwind CSS", "shadcn/ui"],
       description:
         "Find out what UK politicians are saying on issues affecting Palestine",
 

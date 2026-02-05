@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className=" container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+    <main className=" container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
       <section className="mx-auto w-full max-w-3xl space-y-8  print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -95,7 +95,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="whitespace-pre-line text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -164,9 +164,11 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className=" grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2">
+          <div className=" grid grid-cols-1 gap-3 md:grid-cols-2 print:grid-cols-3 print:gap-2">
             <ExpandableList MAX_ITEMS={4}>
-              {RESUME_DATA.projects.map((project) => {
+              {RESUME_DATA.projects
+                .filter((project) => project.title !== "Unclassified.fyi")
+                .map((project) => {
                 return (
                   <ProjectCard
                     key={project.title}
